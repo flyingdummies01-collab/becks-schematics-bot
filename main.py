@@ -103,7 +103,7 @@ async def auto_delete(message, seconds: int):
 # ====================== RUN THE BOT ======================
 token = os.getenv("TOKEN")
 if not token:
-    token = "MTUyNjA3MDg1NjE3MjcwMzc2NA.GvbEPh.ZBkyU-jVNwxo3f79ckH2m9xHnnB9MzYziqr0Mc"
+    token = "MTUyNTc2Mzc0ODI5NDI5OTY1OA.G_hvr9.Z-LpYzrtBp9aKmax8BwrrK5ha5G2GicIWEoyLw"
 if token:
     client.run(token)
 else:
